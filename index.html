@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Sign-Up Form Odin Project</title>
+  </head>
+  <body>
+    <div class="image">
+      <div class="img-logo">
+        <img
+          class="odin-logo"
+          src="./images/odin-lined.png"
+          alt="Odin Logo Lined" />
+        <p class="odin">Odin</p>
+      </div>
+      <div class="attribution">
+        <p>
+          Photo by
+          <a target="_blank" href="https://unsplash.com/@aaina">Aaina Sharma</a>
+          on
+          <a
+            target="_blank"
+            href="https://unsplash.com/photos/square-framed-mirror-over-gray-sofa-J8iOJZEPFQ4"
+            >Unsplash</a
+          >
+        </p>
+      </div>
+      <img
+        class="green-room"
+        src="./images/aaina-sharma-J8iOJZEPFQ4-unsplash.jpg"
+        alt="Image of a dark green room" />
+    </div>
+    <div class="content-section">
+      <div class="form-section">
+        <div class="description">
+          <p class="bold">
+            Join our community today and unlock exclusive access to valuable
+            resources, expert insights, and a network of like-minded individuals
+            dedicated to growth and success. Signing up is quick and easy—don’t
+            miss out on the benefits waiting for you.
+          </p>
+          <p class="bold">Get started now and be part of something great!</p>
+        </div>
+
+        <form>
+          <div class="form-section">
+            <div class="form-background-container">
+              <p class="bold form-title">Let's do this!</p>
+              <div class="form-field">
+                <div class="left">
+                  <div class="individual-input">
+                    <label for="first_name">First Name:</label>
+                    <input
+                      class="input"
+                      placeholder="John"
+                      type="text"
+                      name="first_name"
+                      id="name" />
+                  </div>
+
+                  <div class="individual-input">
+                    <label for="email">Email:</label>
+                    <input
+                      class="input"
+                      placeholder="email@example.com"
+                      type="email"
+                      name="email"
+                      id="email" />
+                  </div>
+
+                  <div class="individual-input">
+                    <label for="password">Password:</label>
+                    <input
+                      class="input"
+                      type="password"
+                      name="password"
+                      id="password" />
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="individual-input">
+                    <label for="last_name">Last Name:</label>
+                    <input
+                      class="input"
+                      placeholder="Doe"
+                      type="text"
+                      name="last_name"
+                      id="name" />
+                  </div>
+
+                  <div class="individual-input">
+                    <label for="phone_number">Phone Number:</label>
+                    <input
+                      class="input"
+                      pattern="\(\d{3}\) \d{3}-\d{4}"
+                      placeholder="(111) 222-3333"
+                      type="text"
+                      name="phone_number"
+                      id="name" />
+                  </div>
+
+                  <div class="individual-input">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input
+                      class="input"
+                      type="password"
+                      name="confirm_password"
+                      id="confirm_password" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="button-section">
+            <button class="bold">Create Account</button>
+          </div>
+        </form>
+        <div class="footer">
+          <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
